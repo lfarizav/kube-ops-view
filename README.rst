@@ -60,6 +60,7 @@ If you are using Docker for Mac, this needs to be slightly different in order to
     $ docker run -it -p 8080:8080 -e CLUSTERS=http://docker.for.mac.localhost:8001 hjacobs/kube-ops-view
 
 Now direct your browser to http://localhost:8080
+If you want to scale the visualizer please use scale: http://localhost:8080/#scale=3
 
 You can also try the UI with the integrated mock mode. This does not require any Kubernetes cluster access:
 
